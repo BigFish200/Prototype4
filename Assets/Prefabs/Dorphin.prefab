@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4962961466453381600}
   m_Layer: 0
   m_Name: Dorphin
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,7 +93,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5921949407452036256}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 3a9bf042408bf674d9ff44ca0e52a20e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -127,4 +127,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aef06323268762243a9be67f7174db7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 1
